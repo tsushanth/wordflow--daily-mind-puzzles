@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_background">#2E7D6B</color>
+    <color name="window_background">#FBFAF6</color>
+    <string name="app_name">WordFlow</string>
+    <string name="privacy_policy_url" translatable="false">https://example.com/wordflow/privacy</string>
+    <string name="terms_of_service_url" translatable="false">https://example.com/wordflow/terms</string>
+    <style name="Theme.WordFlow" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+    <style name="Theme.WordFlow.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.WordFlow</item>
+    </style>
+</resources>
